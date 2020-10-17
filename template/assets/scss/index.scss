@@ -1,0 +1,27 @@
+// scss imports
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  // CSS VARIABLES
+  --primaryColor: #000;
+  --secondaryColor: #fff;
+  --acentColor: #676;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
+// media queries
