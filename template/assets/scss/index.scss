@@ -1,27 +1,13 @@
 // scss imports
+@import "partials/config";
+@import "partials/utilities";
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-:root {
-  // CSS VARIABLES
-  --primaryColor: #000;
-  --secondaryColor: #fff;
-  --acentColor: #676;
-}
-
-body {
-  font-size: 16px;
-  font-weight: 400;
-}
-
-img {
-  width: 100%;
-}
+// scss imports
+@import "partials/navbar/navbar";
+@import "partials/hero/hero";
+@import "partials/cards/cards";
+@import "partials/testimonials/testimonials";
+@import "partials/footer/footer";
 
 // media queries
+@import "partials/media";
