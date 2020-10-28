@@ -1,0 +1,39 @@
+@media (min-width: 600px) {
+  .about-me {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-template-areas: "text img";
+    grid-column-gap: 2em;
+  }
+
+  .about-me__img {
+    grid-area: img;
+    position: relative;
+    z-index: 2;
+    margin-top: 50%;
+  }
+
+  .about-me__body {
+    margin-top: 20%;
+    margin-right: 10%;
+  }
+}
+.about-me {
+  max-width: 1000px;
+  margin-left: 35px;
+  margin-right: 10%;
+  color: crimson;
+  line-height: 1.6;
+  font-size: 20px;
+  text-align: center;
+  font-style: oblique;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-me__img {
+  border-radius: 50%;
+}
